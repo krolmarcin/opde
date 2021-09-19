@@ -23,9 +23,9 @@ print(set(B))
 C = {1, 7, 21, 4, 21}
 D = {2, 1, 25, 40, 21}
 print(D)
-print(C&D) #wyświetli tylko elm wspólne
-print(C|D) #unikalne
-print(C-D) #wszystko w C tylko to co nie w D
+print(C&D) #wyświetli tylko elm wspólne (koniunkcja)
+print(C|D) #unikalne (suma)
+print(C-D) #wszystko w C tylko to co nie w D (różnica)
 print(C^D) #alternatywa wykluczająca - wyklucza wsolne wartości
 
 C.discard(1) #usunie "1"
