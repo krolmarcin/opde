@@ -33,3 +33,9 @@ print(C)
 
 #czy jeden zbiór jest podzbiorem drugiego?
 print(C.issubset(D))
+
+E = {1, 3, 4, 7, 8, 14, 21}
+F = {7, 14, 21}
+print("\nZbiór E = ", E)
+print("Zbiór F = ", F)
+print("Czy zbiór F jest podzbiorem E:", F.issubset(E))
