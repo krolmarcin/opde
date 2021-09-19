@@ -26,7 +26,7 @@ print(D)
 print(C&D) #wyświetli tylko elm wspólne (koniunkcja)
 print(C|D) #unikalne (suma)
 print(C-D) #wszystko w C tylko to co nie w D (różnica)
-print(C^D) #alternatywa wykluczająca - wyklucza wsolne wartości
+print(C^D) #(xor) alternatywa wykluczająca - wyklucza wsolne wartości
 
 C.discard(1) #usunie "1"
 print(C)
