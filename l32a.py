@@ -32,7 +32,9 @@ C.discard(1) #usunie "1"
 print(C)
 
 #czy jeden zbiór jest podzbiorem drugiego?
-print(C.issubset(D))
+print("\nZbiór C =", C)
+print("Zbiór D =", D)
+print("Zbiór C jest podziorem D:", C.issubset(D))
 
 E = {1, 3, 4, 7, 8, 14, 21}
 F = {7, 14, 21}
