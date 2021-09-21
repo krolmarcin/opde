@@ -13,14 +13,14 @@ guestSetKrotka2 = {
 guestList3 = guestSetKrotka | guestSetKrotka2
 guestList4 = guestSetKrotka & guestSetKrotka2
 
-print("Części unikatowe:")
+print("Części unikatowe (zbiór | ):")
 for name, age, gender in guestList3:
     print("Imię: ", name)
     print("Wiek: ", age)
     print("Płeć: ", gender)
     print("")
 
-print("\nCzęści wspólne:")
+print("\nCzęści wspólne (zbiór & ):")
 for name, age, gender in guestList4:
     print("Imię: ", name)
     print("Wiek: ", age)
